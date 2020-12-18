@@ -99,9 +99,9 @@
               drip of ones and zeros necessitated by work, then facilitated via
               an evergrowing curiosity and drive to learn. When I started waking
               up excited to code, I knew what had to be done, and here we are
-              now! When I'm not logged in, you'll find me doing any number of
-              relaxing but focused activities such as reading, meditating,
-              gardening, or beekeeping.
+              now! When I'm not debugging my own code, you'll find me doing any
+              number of relaxing but focused activities, such as reading,
+              meditating, gardening, or beekeeping.
             </p>
             <!-- <a
               href="/Assets/gordonresume4(3).pdf"
@@ -144,10 +144,10 @@
               <h3 class="heading-tertiary u-margin-bottom-small">Design</h3>
               <div class="feature-box__details">
                 <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Bootstrap v4.4.1</li>
-                  <li>Sass v4</li>
+                  <li>Javascript</li>
+                  <li>HTML/CSS3</li>
+                  <li>Bootstrap</li>
+                  <li>Sass</li>
                 </ul>
               </div>
             </div>
@@ -160,8 +160,8 @@
               </h3>
               <div class="feature-box__details">
                 <ul>
-                  <li>C# v8.0</li>
-                  <li>.NET Core v3.1</li>
+                  <li>C#</li>
+                  <li>.NET Core</li>
                   <li>.Net Framework</li>
                   <li>Python</li>
                 </ul>
@@ -476,7 +476,7 @@
 
         <div class="row">
           <!--Grid column-->
-          <div class="col-md-6 mb-md-0 mb-5">
+          <div class="col-md-6 mb-md-0 mb-5" id="contact_form">
             <form
               id="contact-form"
               name="contact-form"
@@ -486,29 +486,32 @@
               <!--Grid row-->
               <div class="row">
                 <!--Grid column-->
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
+                <div class="col-md-12 col-sm-12 mb-2 mt-3">
+                  <div class="md-form mb-3">
                     <input
                       type="text"
                       id="name"
                       name="name"
                       class="form-control"
+                      placeholder=" "
                     />
-                    <label for="name" class="">Your name</label>
+
+                    <label for="name">Enter your name...</label>
                   </div>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
                 <div class="col-md-12">
-                  <div class="md-form mb-0">
+                  <div class="md-form">
                     <input
                       type="text"
                       id="email"
                       name="email"
                       class="form-control"
+                      placeholder=" "
                     />
-                    <label for="email" class="">Your email</label>
+                    <label for="email">Enter your email...</label>
                   </div>
                 </div>
                 <!--Grid column-->
@@ -518,14 +521,15 @@
               <!--Grid row-->
               <div class="row">
                 <div class="col-md-12">
-                  <div class="md-form mb-0">
+                  <div class="md-form">
                     <input
                       type="text"
                       id="subject"
                       name="subject"
                       class="form-control"
+                      placeholder=" "
                     />
-                    <label for="subject" class="">Subject</label>
+                    <label for="subject">Email subject...</label>
                   </div>
                 </div>
               </div>
@@ -542,8 +546,9 @@
                       name="message"
                       rows="5"
                       class="form-control md-textarea"
+                      placeholder=" "
                     ></textarea>
-                    <label for="message">Your message</label>
+                    <label for="message">Enter your message...</label>
                   </div>
                 </div>
               </div>
@@ -552,7 +557,8 @@
 
             <div class="text-center text-md-left">
               <a
-                class="btn btn-primary"
+                class="btn btn--blue"
+                id="contactButton"
                 target="_blank"
                 onclick="document.getElementById('contact-form').submit();"
                 >Send</a
