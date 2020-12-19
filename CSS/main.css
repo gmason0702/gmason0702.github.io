@@ -224,7 +224,7 @@ body {
   top: -30px;
   left: 7%;
   display: inline-block;
-  background-image: linear-gradient(to right, white, #494949ec);
+  background-image: linear-gradient(to right, white, #4949499c);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
@@ -578,9 +578,10 @@ body {
       rgba(124, 132, 141, 0.4),
       rgba(0, 51, 102, 0.8)
     ),
-    url(../Assets/photo-1500021804447-2ca2eaaaabeb.png);
+    url(../Assets/photo-1495571758719-6ec1e876d6ae.jpg);
+  /* url(../Assets/photo-1500021804447-2ca2eaaaabeb.png); */
   background-size: cover;
-  background-position: top;
+  background-position: left;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
