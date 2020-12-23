@@ -182,6 +182,9 @@ body {
   .heading-primary--sub {
     font-size: 105%;
   }
+  .navigation__icon {
+    top: 10rem;
+  }
 }
 
 .heading-secondary {
@@ -693,7 +696,8 @@ body {
 }
 @media (max-width: 56.25em) {
   .navigation__button {
-    top: 5rem;
+    position: fixed;
+    top: 11rem;
     right: 5rem;
   }
 }
